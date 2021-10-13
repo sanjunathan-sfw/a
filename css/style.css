@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+body
+{
+    background:#fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-wrapper {
+    font-family: 'Lato', sans-serif;
+    flex: 1;
+}
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    text-decoration: none;
+    white-space: nowrap;
+    z-index: 99;
+    min-width: 100px;
+    border-bottom: 1px #fff solid !important;
+}
+.navbar
+{
+    border-bottom: 1px #C7C7C7 solid;
+    padding:0px;    
+    background: #fff !important;    
+    line-height: 25px;    
+}
+.navbar .container
+{
+    padding-left: var(--bs-gutter-x,.0rem);
+}
+.navbar .container .img-fluid
+{
+    width:80%;
+}
+/*login page*/
+#login_left_panel 
+{
+    
+    background:#fff;    
+}
+#login_right_panel 
+{
+    background:#fff;    
+}
+.adminmaintitle {
+    font-family: 'Lato', sans-serif;    
+}
+.adminmaintitle h2
+{
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #333;
+}
+.cardbox
+{
+    background: white;
+    padding: 4% 7%;
+    border: 1px #E7E7E7 solid;
+}
+.adminsubtitle
+{
+    border-bottom:1px #C7C7C7 solid;
+    height:32px;
+    margin: 4% 0%;
+}
+.adminsubtitle h4
+{
+    font-size:20px;
+    color:#3E8DDD;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;  
+    text-underline-offset: 0.4em
+}
+input
+{
+    padding:3% !important;
+    
+}
+.btn-success
+{
+    background-color: #6AC346 !important;
+}
+.form-check-input {
+    padding: 0 !important;
+    margin-top:9px;
+}
+.form-check label
+{
+    padding:1% 0 0 2%;
+}
+/* Style navigation menu links */
+#navbarSupportedContent a {
+    color: gray;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  #navbarSupportedContent a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  #navbarSupportedContent a:hover {
+    color:#0D6EFD;
+  }
+  .navbar-light .navbar-toggler
+  {
+      border: 0px;
+  }
+
+  #navbar_top li.active
+  {
+      border-bottom: 2px #0D6EFD solid;
+  }
+  #navbar_top li.active a
+  {
+      color: #0D6EFD;      
+  }
+  #navbar_top li:hover
+  {
+      border-bottom: 2px #0D6EFD solid;
+  }
+  #navbar_top li a:hover
+  {
+      color: #0D6EFD;
+  }
+  .adminmaintitle h3
+  {
+      font-weight: 400;
+      margin-bottom: 0px !important;      
+  }
+  .adminmaintitle .titlemsg
+  {
+      font-size: 13px;
+      color: #666666;
+  }
+  .pagesubtitle
+  {
+      border-bottom: 1px #E2E7EE solid;
+  }
+  .pagesubtitle h3
+  {
+    font-size:15px;
+    color:black;
+    font-weight: 500;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;  
+    text-underline-offset: 0.6em;
+    text-decoration-color:#0D6EFD;
+  }
+  .dashboardcards a.dashcards, h5.card-title
+  {
+    text-decoration: none !important;
+    color: #333 !important;
+  }
+  .dashboardcards .card
+  {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .dashboardcards .card h5
+  {
+      font-size: 15px;
+  }
+  .dashboardcards .card h2
+  {
+      font-size: 32px;
+      font-weight: bolder;
+  }
+  .dashboardcards .card1
+  {
+      color: black;
+  }
+  .dashboardcards .card2
+  {
+      color: #6AC346;
+  }
+  .dashboardcards .card3
+  {
+      color: #E1140A;
+  }
+  .dashboardcards .card4
+  {
+      color: #3E8DDD;
+  }
+  .dashboardcards .card5
+  {
+      color: #FF6A00;
+  }
+  a.text-underlinenone
+  {
+      text-decoration: none;  
+      color: #555 !important;    
+  }
+  a.text-underlinenone:hover
+  {
+      text-decoration: underline;      
+      color: #0D6EFD !important;
+  }
+  .adminportaltable a.listview 
+  {
+      color: #212529;
+      text-decoration: none;
+  }
+  .adminportaltable tr:hover a
+  {
+      color: white;
+      text-decoration: none;
+  }
+  .adminportaltable
+  {
+      background: #fff;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      --bs-table-hover-color: #fff;
+      --bs-table-hover-bg: #3E8DDD;
+      font-size: 14px;      
+  }
+  .adminportaltable span.table-status-ongoing
+  {
+      color: #FF8800;
+  }
+  .adminportaltable span.table-status-completed
+  {
+      color: #6AC346;
+  }
+  .chartbox
+  {
+      background: #fff;
+      padding: 20px 10px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+  }
+  .chartbox h4
+  {
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 8px;
+  }
+  .chartbox span
+  {
+      font-size: 12px;
+      color: #7C828A;
+  }
+  .commonradius
+  {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+  #bookinglistpage h3.title
+  {
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #333;
+    margin: 15px 0;
+  }
+  h3.lighttitle
+  {
+      font-weight: 300;
+  }
+  .tabstitle .nav-tabs
+  {
+      border-bottom: 0px  !important;
+  }
+  .tabstitle a.active
+  {
+    font-size: 15px;
+    color: black !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.7em;
+    text-decoration-color: #0D6EFD;
+    border: 0 !important;
+    background: none !important;
+
+  }
+  footer
+  {
+      font-size: 14px;
+      color: #555 !important;
+      background: #BBBBBB;
+  }
+  .tabstitle a
+  {
+      color: #BBC5D5 !important;
+      font-weight: bold;
+      transition: none !important;  
+  }
+  #table_timeslots tr, td
+  {
+      border-bottom: 0px !important;
+  }
+  #table_timeslots td
+  {
+      padding: 2%;      
+      -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }  
+  #table_timeslots td:hover
+  {
+      background: #EBF2F7;
+  }
+  #table_timeslots td.booked
+  {
+      background: #E1140A;
+  }
+  #table_timeslots td.booked .timehead, .abtnactive
+  {
+      color: white ;
+  }
+  #table_timeslots .timehead
+  {
+      border-bottom: 1px #D4D4D4 solid;
+  }
+  #table_timeslots .btnbooknow a
+  {
+      color:#3E8DDD;
+      text-decoration: none;
+  }
+ 
+  .btnback
+  {
+      text-decoration: none;
+  }
+  .warrantybox .form-check-input
+  {
+      margin-top: 4px !important;
+  }
+  .btn-success {
+    background: #6AC346;
+    border: 0px;
+  }
+  .form-control:focus,
+  input:focus,
+  button:focus,
+  select:focus
+  {
+    box-shadow: none !important;
+    }
+@media (min-width: 250px)
+{
+    .logo_wrapper 
+    {
+        width: 152px;
+        padding-top: 1px;
+        
+    }
+    .navbar
+    {
+        line-height: unset !important;
+    }
+    .logo_wrapper .navbar-brand
+    {
+        border-bottom: 0 !important;
+    }
+    .nav-link .d-sm-block
+    {
+        display: block !important;
+    }
+    .tab-content .d-sm-block
+    {
+        display: block !important;
+    }
+}
+@media (min-width: 350px)
+{
+    .logo_wrapper 
+    {
+        all: unset !important;
+    }
+    input#phone {
+        padding-left: 16% !important;
+    }
+}
+@media (max-width: 575.98px)
+{
+    .table-responsive table {
+        min-width: 800px;
+    }
+    input#phone {
+        padding-left: 11% !important;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px)  { 
+    input#phone {
+        padding-left: 16% !important;
+    }
+    #navbar_top .container
+    {
+        margin-left: 0px !important;
+    }
+    .nav-link .d-sm-block
+    {
+        display: none !important;
+    }
+    .tab-content .d-sm-block
+    {
+        display: none !important;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+    #navbar_top .container
+    {
+        margin-left: auto !important;
+    }
+    .navbar
+    {
+        line-height: 25px !important;
+    }
+    
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    input #phone {
+        padding-left: 10% !important;        
+    }
+    #navbar_top .container
+    {
+        margin-left: auto !important;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1366px)
+{
+    input#phone {
+        padding-left: 16% !important;
+    }
+    
+    #navbar_top li.active
+    {
+        padding-bottom: 4px;
+    }
+    #navbar_top ul li a
+    {
+        font-size: 14.2px;
+    }
+    .col-md-12
+    {
+        width: 100%;
+    }
+    .tab-none
+    {
+        display: none !important;
+    }
+    .tab-block
+    {
+        display: block !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+    input#phone {
+        padding-left: 16% !important;
+    }
+    
+}
+.box {
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 15px;    
+    
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+  
+  .red {
+    background-color: red;
+  }
