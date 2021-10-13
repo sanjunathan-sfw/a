@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <title>My account | Lenovo India</title>
+    <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.ico" />
+    <meta name="description" content="Login/Register">
+    <meta name="author" content="Lenovo">
+    <link rel="stylesheet" href="css/fontawesome/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" /> 
+    <link rel="stylesheet" href="css/calender/rome.css"> 
+    
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="">
+            <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <div class="logo_wrapper">
+                        <div>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" class="img-fluid"/>
+                            </a>
+                        </div>
+                    </div>                      
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="dashboard.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="StoreList.html">Store list</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="BookingList.html">Booking list</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Logout</a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row no-gutters pt-3">
+                <div class="col-lg-12">
+                    <div class="adminmaintitle mb-4">
+                        <h3>Dashboard</h3>
+                        <span class="titlemsg">Welcome back!</span>
+                    </div>
+                    <!--<div class="">
+                        <div class="mb-4">
+                            <div class="d-md-block d-sm-block d-lg-none pt-4">
+                                <h4>Select Date</h4>
+                                <input type="date" id="birthday" name="birthday" class="col-12 form-control">
+                            </div>                                                         
+                        </div>
+                    </div>-->
+                    <div class="row pb-4">
+                        <div class="col-sm-3">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="date" id="birthday" name="birthday" class="form-control">                                
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Country</option>
+                                <option value="1">India</option>
+                                <option value="2">Sigapore</option>
+                                <option value="3">China</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select State</option>
+                                <option value="1">Karnataka</option>
+                                <option value="2">Chennai</option>                                
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select District</option>
+                                <option value="1">Bengaluru</option>
+                                <option value="2">Coimbatore</option>                                
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select CCI Store</option>
+                                <option value="1">Lenovo Store 1</option>
+                                <option value="2">Lenovo Store 2</option>                                
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pagesubtitle pt-2">
+                        <h3>Quick starts</h3>
+                    </div>
+                    <div class="dashboardcards">
+                        <div class="row">
+                            <div class="col-sm-3 pt-4">
+                                <a href="BookingList.html" class="dashcards">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Total bookings</h5>
+                                            <h2 class="card1">20,445</h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-3 pt-4">
+                                <a href="BookingList.html" class="dashcards">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ongoing appointments</h5>
+                                        <h2 class="card5">120</h2>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-3 pt-4">
+                                <a href="BookingList.html" class="dashcards">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Completed appointments</h5>
+                                        <h2 class="card2">89</h2>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-sm-3 pt-4">
+                                <a href="BookingList.html" class="dashcards">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cancelled bookings</h5>
+                                        <h2 class="card3">30</h2>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>    
+                <div class="col-lg-12">
+                    <div class="row pt-4">
+                        <div class="col-lg-4 col-sm-6 col-md-6">
+                            <div class="chartbox">
+                                <div class="">
+                                    <h4>Weekly chart</h4>
+                                    <span>15 Sep 2021 -25 Sep 2021</span>
+                                    <div class="pt-2">
+                                        <canvas id="barChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-6">
+                            <div class="chartbox">
+                                <div class="">
+                                    <h4>Monthly chart</h4>
+                                    <span>2021</span>
+                                    <div class="pt-4">
+                                        <canvas id="myChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-block d-none col-sm-4">
+                            <div class="text-center">
+                                <div id="inline_cal"></div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>                               
+            </div>
+        </div>
+    </div>    
+    <footer class="text-center text-lg-start">
+        <div class="container"> 
+            <div class="d-flex bd-highlight mb-3 mt-3">
+                <div class="me-auto p-2 bd-highlight">
+                    &copy; <script>document.write(new Date().getFullYear())</script> Lenovo. All rights reserved
+                </div>
+                <div class="p-2 bd-highlight">
+                    <small>Version : 0.0.1</small>
+                </div>
+            </div>
+        </div>        
+    </footer>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>    
+    <script type="text/javascript" src="js/charts/popper.min.js"></script>
+    <script type="text/javascript" src="js/charts/mdb.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/customscript.js"></script>
+    <script src="js/calender/jquery-3.3.1.min.js"></script>
+    <script src="js/calender/rome.js"></script>
+    <script src="js/calender/main.js"></script>
+</body>
+</html>
